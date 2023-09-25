@@ -137,6 +137,7 @@ body {
 }
 .container main section.offering-container {
   width: 100%;
+  max-width: 446px;
   height: 540px;
   border-radius: 12px;
   position: absolute;
@@ -231,6 +232,31 @@ body {
 }
 .container main section.offering-container .offering .btn-action button.android:hover {
   background-color: var(--light-orange);
+}
+@media (min-width: 768px) {
+  .container main {
+    height: 725px;
+    padding: 0 40px;
+  }
+  .container main section.phone {
+    height: 600px;
+  }
+  .container main section.phone img {
+    width: 270px;
+    height: 556px;
+    left: 50px;
+    bottom: 150px;
+  }
+  .container main section.phone .bg-blue {
+    height: 600px;
+    background-size: 40% 75%;
+  }
+  .container main section.offering-container {
+    width: 399px;
+    top: 175px;
+    right: 110px;
+    z-index: 1000;
+  }
 }
 .container footer {
   height: 350px;
