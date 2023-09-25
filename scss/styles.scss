@@ -20,6 +20,12 @@ body {
   background-size: 120% 20%;
   background-position: top -70px left 50px;
   background-repeat: no-repeat;
+
+  @media (min-width: 768px) {
+    background-image: url(/assets/img/bg-main-tablet.png);
+    background-size: 170% 55%;
+    background-position: top -190px left -350px;
+  }
 }
 
 .container {
@@ -32,6 +38,21 @@ body {
     flex-direction: column;
     justify-content: space-around;
     padding: 24px;
+    position: relative;
+
+    .header-img {
+      display: none;
+      height: 360px;
+      width: 250px;
+      position: absolute;
+      top: 0;
+      right: 0;
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
 
     .logo {
       height: 15%;
@@ -55,9 +76,38 @@ body {
 
       p {
         font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
         line-height: 26px; /* 162.5% */
+      }
+    }
+
+    @media (min-width: 768px) {
+      padding: 40px;
+      height: 65vh;
+
+      .header-img {
+        display: block;
+      }
+
+      .heading {
+        height: 35%;
+
+        h1 {
+          width: 520px;
+          font-size: 64px;
+          font-weight: 900;
+          line-height: 64px; /* 120% */
+          letter-spacing: -0.727px;
+        }
+      }
+
+      .description {
+        height: 40%;
+
+        p {
+          width: 520px;
+          font-size: 18px;
+          line-height: 28px; /* 162.5% */
+        }
       }
     }
   }
