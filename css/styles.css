@@ -47,6 +47,12 @@ body {
     background-position: top -250px left -300px;
   }
 }
+@media (min-width: 1600px) {
+  body {
+    background-size: 100% 60%;
+    background-position: top -250px right 50px;
+  }
+}
 
 .container {
   position: relative;
