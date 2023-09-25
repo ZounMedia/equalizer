@@ -273,9 +273,34 @@ body {
 }
 .container footer .social img {
   margin-left: 20px;
+  width: 20px;
+  height: 20px;
 }
 .container footer .social img:nth-child(1) {
   margin-left: 0;
+}
+@media (min-width: 768px) {
+  .container footer {
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 80px 40px;
+  }
+  .container footer .heading {
+    width: 100%;
+  }
+  .container footer .description,
+  .container footer .social {
+    width: 50%;
+  }
+  .container footer .description {
+    display: flex;
+    align-items: center;
+  }
+  .container footer .social {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
