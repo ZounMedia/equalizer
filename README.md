@@ -23,7 +23,7 @@ An HTML CSS and Javascript interactive rating component.
 
 ### Links
 
-- Solution URL: https://www.frontendmentor.io/solutions/interactive-rating-component-built-with-html-css-and-javascript-88NxKRZwFd
+- Solution URL: https://www.frontendmentor.io/solutions/responsive-landing-page-using-sass-and-flexbox-X_lo0_7RON
 - Live Site URL: https://equalizer-psi.vercel.app/
 - GitHub Repo: https://github.com/ZounMedia/equalizer
 
