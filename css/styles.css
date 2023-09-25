@@ -4,18 +4,10 @@
   box-sizing: border-box;
 }
 
-:root {
-  --ver-dark-blue: #191826;
-  --cyan: #66e2dc;
-  --cream: #fcfaf9;
-  --orange: #fa7453;
-  --light-orange: #ffb964;
-}
-
 body {
   font-size: 16px;
   font-family: "IBM Plex Sans", sans-serif;
-  color: var(--ver-dark-blue);
+  color: #191826;
   background-image: url(/assets/img/bg-main-mobile.png);
   background-size: 120% 20%;
   background-position: top -70px left 50px;
@@ -101,6 +93,30 @@ body {
     line-height: 28px; /* 162.5% */
   }
 }
+@media (min-width: 1440px) {
+  .container header {
+    padding: 40px;
+    height: 75vh;
+  }
+  .container header .header-img {
+    height: 400px;
+  }
+  .container header .heading h1 {
+    width: 900px;
+    font-size: 88px;
+    font-weight: 900;
+    line-height: 88px; /* 120% */
+    letter-spacing: -0.727px;
+  }
+  .container header .description {
+    height: 40%;
+  }
+  .container header .description p {
+    width: 900px;
+    font-size: 20px;
+    line-height: 34px; /* 162.5% */
+  }
+}
 .container main {
   height: 1092px;
   width: 100%;
@@ -129,7 +145,7 @@ body {
   width: 100%;
   height: 60%;
   border-radius: 12px 12px 0 0;
-  background-color: var(--ver-dark-blue);
+  background-color: #191826;
   background-image: url(/assets/img/bg-pattern-2.svg);
   background-size: 75% 120%;
   background-repeat: no-repeat;
@@ -152,9 +168,9 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 48px 36px;
-  background-color: var(--orange);
+  background-color: #fa7453;
   border-radius: 12px;
-  color: var(--cream);
+  color: #fcfaf9;
 }
 .container main section.offering-container .offering .heading,
 .container main section.offering-container .offering .description,
@@ -220,18 +236,18 @@ body {
   cursor: pointer;
 }
 .container main section.offering-container .offering .btn-action button.apple {
-  background-color: var(--ver-dark-blue);
-  color: var(--cream);
+  background-color: #191826;
+  color: #fcfaf9;
 }
 .container main section.offering-container .offering .btn-action button.apple:hover {
-  background-color: var(--cyan);
+  background-color: #66e2dc;
 }
 .container main section.offering-container .offering .btn-action button.android {
-  background-color: var(--cream);
-  color: var(--ver-dark-blue);
+  background-color: #fcfaf9;
+  color: #191826;
 }
 .container main section.offering-container .offering .btn-action button.android:hover {
-  background-color: var(--light-orange);
+  background-color: #ffb964;
 }
 @media (min-width: 768px) {
   .container main {
@@ -301,6 +317,11 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 1440px;
   }
 }
 
