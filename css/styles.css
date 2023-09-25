@@ -28,8 +28,8 @@ body {
   font-family: "IBM Plex Sans", sans-serif;
   color: #191826;
   background-image: url(/assets/img/bg-main-mobile.png);
-  background-size: 120% 20%;
-  background-position: top -70px left 50px;
+  background-size: 120% 40%;
+  background-position: top -250px left 60px;
   background-repeat: no-repeat;
 }
 @media (min-width: 768px) {
@@ -37,6 +37,12 @@ body {
     background-image: url(/assets/img/bg-main-tablet.png);
     background-size: 170% 55%;
     background-position: top -190px left -350px;
+  }
+}
+@media (min-width: 1440px) {
+  body {
+    background-size: 125% 70%;
+    background-position: top -250px left -300px;
   }
 }
 
@@ -115,7 +121,7 @@ body {
 @media (min-width: 1440px) {
   .container header {
     padding: 40px 156px;
-    height: 75vh;
+    height: 80vh;
   }
   .container header .header-img {
     height: 400px;
@@ -294,10 +300,37 @@ body {
     z-index: 1000;
   }
 }
+@media (min-width: 1440px) {
+  .container main {
+    height: 725px;
+    padding: 0 156px;
+    margin-top: 110px;
+  }
+  .container main section.phone img {
+    width: 280px;
+    height: 606px;
+    left: 100px;
+    bottom: 200px;
+  }
+  .container main section.phone .bg-blue {
+    background-size: 25% 75%;
+    background-position: top -50px left 310px;
+  }
+  .container main section.offering-container {
+    width: 446px;
+    height: 625px;
+    top: 75px;
+    right: 300px;
+  }
+  .container main section.offering-container .offering .btn-action button {
+    width: 100%;
+    height: 72px;
+  }
+}
 .container footer {
   height: 350px;
   position: relative;
-  padding: 80px 24px;
+  padding: 60px 24px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -323,6 +356,11 @@ body {
   }
   .container footer .heading {
     width: 100%;
+    display: flex;
+  }
+  .container footer .heading img {
+    width: 146px;
+    height: 43px;
   }
   .container footer .description,
   .container footer .social {
@@ -330,6 +368,33 @@ body {
   }
   .container footer .description {
     display: flex;
+    align-items: center;
+  }
+  .container footer .social {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+}
+@media (min-width: 1440px) {
+  .container footer {
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 80px 156px;
+  }
+  .container footer .heading,
+  .container footer .social {
+    width: 30%;
+    height: 100%;
+  }
+  .container footer .heading {
+    align-items: center;
+  }
+  .container footer .description {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: flex-start;
     align-items: center;
   }
   .container footer .social {
