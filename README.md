@@ -24,7 +24,7 @@ An HTML CSS and Javascript interactive rating component.
 ### Links
 
 - Solution URL: https://www.frontendmentor.io/solutions/interactive-rating-component-built-with-html-css-and-javascript-88NxKRZwFd
-- Live Site URL: https://interactive-rating-component-lac-one.vercel.app/
+- Live Site URL: https://equalizer-psi.vercel.app/
 - GitHub Repo: https://github.com/ZounMedia/equalizer
 
 ## My process
@@ -32,22 +32,22 @@ An HTML CSS and Javascript interactive rating component.
 ### Built with
 
 - Semantic HTML5 markup
-- CSS
+- SCSS
 - Flexbox
-- Javascript DOM minipulation
 - Mobile-first workflow
 
 ### What I learned
 
-I leanred how to manipulate the DOM with Javascript and toggle css classes.
+I learned advanced CSS position using relative and absolute positioning for UI elements.
 
 ### Continued development
 
-I used regular CSS since this compent was not that complex, but I think I should have used SASS for a better development workflow.
+Using SASS really made it really easy to organize and maintain my styles.
 
 ### Useful resources
 
 - https://fonts.google.com/specimen/IBM+Plex+Sans - Google Fonts IBM Plex Sans url
+- https://sass-lang.com/documentation/ - SASS documentation
 
 ## Author
 
