@@ -294,6 +294,7 @@ body {
   .container main section.phone .bg-blue {
     height: 600px;
     background-size: 40% 75%;
+    background-position: top;
   }
   .container main section.offering-container {
     width: 399px;
@@ -311,18 +312,18 @@ body {
   .container main section.phone img {
     width: 280px;
     height: 606px;
-    left: 100px;
+    left: 75px;
     bottom: 200px;
   }
   .container main section.phone .bg-blue {
-    background-size: 25% 75%;
-    background-position: top -50px left 310px;
+    background-size: 30% 75%;
+    background-position: top 30px left 290px;
   }
   .container main section.offering-container {
     width: 446px;
     height: 625px;
-    top: 75px;
-    right: 300px;
+    top: 150px;
+    right: 200px;
   }
   .container main section.offering-container .offering .btn-action button {
     width: 100%;
